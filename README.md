@@ -1,6 +1,6 @@
 ﻿# Event Message Bus
 
-A event message bus system compatible with Xamarin.Forms and other applications.
+A event message bus system for .NET Standard 2.1 compatible with Xamarin.Forms.
 
 ## Sampüle
 
