@@ -1,0 +1,47 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMessageBus", "AppMessageBus\EventMessageBus.csproj", "{735B9609-0067-4FE3-BAA0-8DA8BD5F9215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{15ED17D9-BE81-4A00-8B92-AAC7273612E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{CAEF74C1-7D40-46FE-9A1C-AEDC4CDE3C3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEMPLATE", "{6B477466-F6D4-4316-AD09-624C8D4235F9}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE\bug_report.md = .github\ISSUE_TEMPLATE\bug_report.md
+		.github\ISSUE_TEMPLATE\feature_request.md = .github\ISSUE_TEMPLATE\feature_request.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{AAF9CDBE-D35C-4765-A32E-245C7DBBC2F3}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+		.github\workflows\preview.yml = .github\workflows\preview.yml
+		.github\workflows\release.yml = .github\workflows\release.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98B0FE5F-636D-423F-8D74-2AF7B5B8A81E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{735B9609-0067-4FE3-BAA0-8DA8BD5F9215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735B9609-0067-4FE3-BAA0-8DA8BD5F9215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735B9609-0067-4FE3-BAA0-8DA8BD5F9215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735B9609-0067-4FE3-BAA0-8DA8BD5F9215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15ED17D9-BE81-4A00-8B92-AAC7273612E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15ED17D9-BE81-4A00-8B92-AAC7273612E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15ED17D9-BE81-4A00-8B92-AAC7273612E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15ED17D9-BE81-4A00-8B92-AAC7273612E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B477466-F6D4-4316-AD09-624C8D4235F9} = {CAEF74C1-7D40-46FE-9A1C-AEDC4CDE3C3F}
+		{AAF9CDBE-D35C-4765-A32E-245C7DBBC2F3} = {CAEF74C1-7D40-46FE-9A1C-AEDC4CDE3C3F}
+	EndGlobalSection
+EndGlobal
