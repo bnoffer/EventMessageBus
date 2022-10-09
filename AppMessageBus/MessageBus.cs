@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,8 +16,8 @@ namespace bnoffer.EventMessageBus
         /// <summary>
         /// Subscriptions
         /// </summary>
-        private readonly Dictionary<Type, List<object>> _observers
-            = new Dictionary<Type, List<object>>();
+        private readonly ConcurrentDictionary<Type, List<object>> _observers
+            = new ConcurrentDictionary<Type, List<object>>();
 
         /// <summary>
         /// Removes all subscriptions
@@ -99,8 +100,9 @@ namespace bnoffer.EventMessageBus
             {
                 removed = _observers[messageType].Remove(subscription);
 
+                List<object> outList = new List<object>();
                 if (_observers[messageType].Count == 0)
-                    _observers.Remove(messageType);
+                    _observers.Remove(messageType, out outList);
             }
             return removed;
         }
