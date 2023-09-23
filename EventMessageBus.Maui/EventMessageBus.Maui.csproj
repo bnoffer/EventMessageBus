@@ -10,13 +10,13 @@
 
 		<AssemblyName>bnoffer.EventMessageBus.Maui</AssemblyName>
         <PackageId>bnoffer.EventMessageBus.Maui</PackageId>
-        <Version>3.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>bnoffer</Authors>
         <Owners>bnoffer</Owners>
         <Product>EventMessageBus.Maui</Product>
         <PackageId>bnoffer.EventMessageBus.Maui</PackageId>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <FileVersion>1.0.0.0</FileVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <FileVersion>1.0.1.0</FileVersion>
         <NeutralLanguage>en</NeutralLanguage>
 	</PropertyGroup>
 
