@@ -12,8 +12,8 @@
         <Version>1.0.1</Version>
         <Authors>bnoffer</Authors>
         <Owners>bnoffer</Owners>
-        <Product>EventMessageBus.Maui</Product>
-        <PackageId>bnoffer.EventMessageBus.Maui</PackageId>
+        <Product>EventMessageBus.Net</Product>
+        <PackageId>bnoffer.EventMessageBus.Net</PackageId>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <FileVersion>1.0.1.0</FileVersion>
         <NeutralLanguage>en</NeutralLanguage>

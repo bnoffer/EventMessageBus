@@ -90,7 +90,7 @@ public class MessageBus : IMessageBus
             removed = value.Remove(subscription);
 
             if (value.Count == 0)
-                _observers.Remove(messageType, out List<object> _);
+                _observers.Remove(messageType, out var _);
         }
         return removed;
     }
